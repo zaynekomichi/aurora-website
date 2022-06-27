@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,700&display=swap');
+
+:root{
+  --radius:7px;
+  --fsize:20px;
+  --bs:0px 1px 5px 0px grey;
+  --bg:web
+}
+
+body{
+ padding: 0px;
+ margin: 0px;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.gen_input{
+  border-radius: var(--radius);
+  padding: 10px;
+  font-size: 20px;
+  height: 40px;
+  min-width: 200px;
+}
+
+.gen_button{
+  min-width: 200px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: var(--radius);
+  box-shadow: var(--bs);
+}
+
+.general_block{
+  height: 90vh;
+}
+
+.general_background{
+  background-image: linear-gradient(150deg, #00aeff, blue);
+}
+
+.general_button{
+  background-color: #00aeff;
+  width: 200px;
+  height: 35px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 0px 8px 1px rgb(153, 0, 255);
+}
+
+.general_bigText{
+  font-size: 100px;
+}
+
+.general_bigParaText{
+  font-size: 25px;
+}
+
+.nav-link{
+  color: white;
+}
+
+a{
+color: white;
+}
