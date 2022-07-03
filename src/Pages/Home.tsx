@@ -1,5 +1,6 @@
-import person from '../Assets/person.png'
-import company from '../Assets/company.png'
+import first_image from '../Assets/home_page.png'
+import second_image from '../Assets/home_page_two.png'
+import third_image from '../Assets/home_page_three.png'
 import { flexStyle } from '../Components/CssStyles';
 import { Fade } from 'react-awesome-reveal';
 
@@ -9,17 +10,17 @@ const Home = () =>{
             <Fade direction="down" cascade={true}>
            <div className={`${flexStyle}`}>
                <div className="col-sm">
-                <h1 className="general_bigText font-weight-bolder">AURORA</h1>
+                <h1 className="general_bigText">AURORA</h1>
                </div>
                <div className="col-sm">
-                <img src={person} width="400" alt=""/>
+                <img src={first_image} width="400" alt=""/>
                </div>
            </div>
            </Fade>
            <Fade direction="down" cascade={true}>
            <div className={`${flexStyle}`}>
                 <div className="col-sm">
-                    <img src={company} width="400" alt=""/>
+                    <img src={second_image} width="400" alt=""/>
                 </div>
                 <div className="col-sm">
                     <h1 className="general_bigText">WHY AURORA?</h1>
@@ -45,7 +46,7 @@ const Home = () =>{
                     <button className="btn general_button text-white">Contact Us</button>
                </div>
                <div className="col-sm">
-
+                    <img src={third_image} className="img-fluid" alt=""/>
                </div>
            </div>
            </Fade>

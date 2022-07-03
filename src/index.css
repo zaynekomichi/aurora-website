@@ -12,6 +12,10 @@ body{
  margin: 0px;
 }
 
+h1{
+  font-size: 100px;
+}
+
 
 h1,h2,h3,h4,h5,h6{
   font-weight: normal;
@@ -44,7 +48,6 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .general_button{
-  background-color: #00aeff;
   width: 200px;
   height: 35px;
   border-radius: 25px;
@@ -58,7 +61,7 @@ h1,h2,h3,h4,h5,h6{
 }s
 
 .general_bigText{
- font-size: xx-large;
+ font-size: 200px;
 }
 
 .general_bigParaText{
