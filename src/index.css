@@ -39,7 +39,6 @@ h1,h2,h3,h4,h5,h6{
 .general_block{
   height: 90vh;
 }
-
 .general_background{
   background-image: linear-gradient(150deg, #00aeff, blue);
 }
@@ -50,11 +49,16 @@ h1,h2,h3,h4,h5,h6{
   height: 35px;
   border-radius: 25px;
   border: none;
-  box-shadow: 0px 0px 8px 1px rgb(153, 0, 255);
+  box-shadow: 0px 1px 8px 0px rgb(255, 255, 255);
 }
+.general_button:hover{
+  transition: 0.5s;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}s
 
 .general_bigText{
-  font-size: 100px;
+ font-size: xx-large;
 }
 
 .general_bigParaText{
@@ -68,3 +72,10 @@ h1,h2,h3,h4,h5,h6{
 a{
 color: white;
 }
+
+
+
+.animate_logo{
+  animation: topple 2s linear 0s infinite;
+}
+

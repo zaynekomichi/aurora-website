@@ -1,11 +1,15 @@
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
+import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import logo from "../Assets/logo.png";
 
 const TopNavbar = () => {
     return(
       <div className='container-fluid text-white'>
         <Navbar collapseOnSelect  expand="sm" className="container-fluid text-white">
           <Container>
-            <Navbar.Brand className="text-white" href="#home">Aurora</Navbar.Brand>
+            <Navbar.Brand className="text-white" href="#home">
+              <img className="img-fluid" width="50" src={logo} alt="logo"/>
+              Aurora
+            </Navbar.Brand>
           </Container>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-start">

@@ -1,0 +1,1 @@
+export const flexStyle:string = "row general_block d-flex align-items-center";
